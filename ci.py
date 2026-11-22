@@ -44,7 +44,7 @@ def add_configuration(board : str):
     configurations.append({
         "Board": board,
         "Version": repo_version,
-        "URL": f"https://suchmememanyskill.github.io/CYD-Klipper/out/{board}/firmware.bin"
+        "URL": f"https://zigmundrat.github.io/CYD-Klipper/out/{board}/firmware.bin"
     })
 
 def add_site_section(port : str, data : dict[str, bool|str]):
